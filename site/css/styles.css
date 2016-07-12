@@ -1,0 +1,124 @@
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  /*height: 52px;*/
+  /*border-bottom: 3px solid black;*/
+  width: 100%;
+  /*margin: 0;*/
+}
+
+
+
+.navbar-brand {
+  padding-top: 5px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'arial', serif;
+  color: black;
+  font-size: 1.5em;
+  /*text-transform: uppercase;*/
+  /*font-weight: bold;*/
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 2;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+margin-bottom: 0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 120%;
+}
+#nav-list a:hover {
+  background: grey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+
+  
+  /* End Header */
+
+
+
+/* Simple Responsive Framework. */
+.container  {
+padding: 0;
+width: 100%;
+color: white;
+display: block;
+}
+
+p {
+  /*width: 90%;*/
+  height: 100%;
+  color: black;
+  margin: 0;
+  /*position:relative;*/
+}
+#p1 {
+  font-family: 'arial', serif;
+  color: black;
+  font-size: 1.8em;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+
+  margin-bottom:18px;
+}
+
+#chicken, #beef, #sushi  {
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 150%;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+#p4{
+  font-family: Helvetica;
+  margin-left:  18px;
+  margin-right: 18px;
+text-align: left;
+margin-bottom:10px;
+}
+
+.section {
+  background-color: grey;
+    border: 2px solid black;
+  position:relative;
+    min-height: 100px;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 15px;
+    /*padding: 20px;*/
+    /*padding-top: 35px;*/
+    box-sizing: border-box;
+    /*min-width: 300px;*/
+    overflow: hidden;
+    /*height: 1000px;*/
+}
